@@ -1,0 +1,43 @@
+body{
+    width: 500px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+fieldset
+{
+    border-radius: 20px;
+    background-color: #E0E0FF;
+    border: 2px solid gray;
+
+}
+
+legend
+{
+    border: 2px solid gray;
+    background-color: white;
+    height: 25px;
+    width: 150px;
+    padding: 2px 0 0 10px;
+    font-size: 15px;
+}
+
+input[type="submit"]
+{
+    background-color: #FFAAAA;
+}
+
+a
+{
+    color: red;
+}
+input[type="submit"] {
+    margin-top: 15px;
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 16px;
+}
+p{
+    font-size: 13px;
+    padding: 20px;
+}
