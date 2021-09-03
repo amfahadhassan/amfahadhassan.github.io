@@ -1,0 +1,38 @@
+.wrapper{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding: 25px;
+    background-color: white;
+}
+body{
+    width: 670px;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #ededed;
+}
+h1{
+    text-align: center;
+}
+h2{
+    font-size: 18px;
+}
+label{
+    line-height: px;
+    font-weight: bold;
+}
+h2>input{
+    width: 290px;
+    line-height: 25px;
+    margin-left: 10px;
+}
+.button>input{
+    width: 100px;
+    height: 35px;
+    margin-right: 10px;
+}
+.button>input:hover{
+    background-color: lightblue;
+    font-weight: bold;
+    border-radius: 5px;
+}
