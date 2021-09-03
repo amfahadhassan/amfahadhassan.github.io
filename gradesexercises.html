@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/grades.css">
+    <title>Retrieve Grade</title>
+</head>
+<body>
+    <div class="wrapper">
+    <h1>Retrieve your grade</h1><hr>
+    <form action="http://mumstudents.org/params.php" method="post">
+        <h2>Name :<input type='text' name="name"/></h2>
+        <h2>Student ID :</label><input type='text' name="student_id"/></h2>
+        <h2>Select your entry:</h2>
+            <input type="radio" name="entry" value="Feb"/>
+            <label for="February">February Entry</label> 
+            <input type="radio" name="entry" value="May" checked/>
+            <label for="May">May Entry</label>
+            <input type="radio" name="entry" value="Aug"/>
+            <label for="August">August Entry</label>
+        </br><br>
+        <label for="course">Select Assignment:</label>
+            <select name="assignment_name">
+                <option value="FPP">FPP</option>
+                <option value="MPP">MPP</option>
+                <option value="WAP" selected>WAP</option>
+                <option value="WAP">WAA</option> 
+            </select>
+        </br><br>
+        <input type=checkbox>I agree that I am looking for my own assignments.
+        <br><br>
+        <div class="button">
+        <input type="reset" value="Reset"/>
+        <input type="submit" value="Get Grade!">
+        </div>
+    </form>
+    </div>
+</body>
+</html>
