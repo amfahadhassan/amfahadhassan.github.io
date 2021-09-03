@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/signup.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <img src="images/nerd.PNG" alt="nerd" />
+    <form action="http://mumstudents.org/params.php" method="post">
+      <fieldset>
+        <legend>New User Signup:</legend>
+        <table>
+          <tr>
+            <td>Name:</td>
+            <td><input type="text" name="name" maxlength="16" /></td>
+          </tr>
+          <tr>
+            <td>Gender:</td>
+            <td>
+              <input type="radio" name="Gender" value="Male" />
+              <label for="Male">Male</label>
+              <input type="radio" name="Gender" value="Female" checked />
+              <label for="Female">Female</label>
+            </td>
+          </tr>
+          <tr>
+            <td>Age:</td>
+            <td><input type="number" size="6" maxlength="2" min="0" max="99" name="Age"/></td>
+          </tr>
+          <tr>
+            <td>Personality Type:</td>
+            <td>
+              <input type="text" size="6" maxlength="4" name="personality_type"/> (<a
+                href="humanmetrics.com/cgi-win/JTypes2.asp"
+                >Don't know your type?</a
+              >)
+            </td>
+          </tr>
+          <tr>
+            <td>Favorite OS:</td>
+            <td>
+              <select>
+                <option value="Windows" selected>Windows</option>
+                <option value="Mac OS X">Mac OS X</option>
+                <option value="Linux">Linux</option>
+              </select>
+            </td>
+          </tr>
+          <tr>
+            <td>Seeking Age:</td>
+            <td><input type="text" size="6" maxlength="2" placeholder="min" name="min_age"/> To: <input type="text" size="6" maxlength="2" placeholder="max" name="max_age"/></td>
+          </tr>
+          <tr>
+            <td><input type="submit" value="Sign Up" /></td>
+            <td></td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+    <p>
+      This page is for single nerds to meet and date each other! Type in <br />
+      your peronal information and wait for the nerdly luv to begin! <br />
+      Thank you for using out site. <br /><br />
+      Results and page (C) Copyright NerLuv Inc.
+    </p>
+    <a
+        href="http://validator.w3.org/check?uri=https://amfahadhassan.github.io/signup.html"
+        ><img
+          src="http://mumstudents.org/cs472/2013-09/images/w3c-html.png"
+          alt="html validator"
+      /></a>
+      <a href="http://jigsaw.w3.org/css-validator/check/referer"
+        ><img
+          src="http://mumstudents.org/cs472/2013-09/images/w3c-css.png"
+          alt="css validator"
+      /></a>
+  </body>
+</html>
