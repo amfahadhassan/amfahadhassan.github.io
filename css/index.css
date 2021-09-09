@@ -1,0 +1,39 @@
+body{
+    width: 960px;
+    margin: 0 auto;
+    background-color:black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.wrapper{
+    background: blanchedalmond;
+    padding: 0 30px 0 30px;
+}
+.photo{
+    text-align: center;
+    font-size: 25px;
+    line-height: 5px;
+}
+
+.labs{
+    float: left;
+    border-radius: 20px;
+    background:wheat;
+    padding: 5px 20px 5px 20px;
+    width: 380px;
+    height: 400px;
+}
+.homeworks{
+    float: right;
+    border-radius: 20px;
+    background: wheat;
+    padding: 5px 20px 5px 20px;
+    width: 380px;
+    height: 400px;
+}
+.wrapper{
+    float: left;
+    overflow: hidden;
+}
+.validator{
+    text-align: center;
+}
