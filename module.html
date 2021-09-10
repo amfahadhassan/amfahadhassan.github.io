@@ -326,7 +326,7 @@
                                   };
                     employeeObj.increaseSalary= function(percentage){
                                             var sal = getSalary();
-                                            setSalary(sal + (sal*percentage)*0.01);
+                                            setSalary(sal * (1 + percentage/100));
                                         };
                     employeeObj.incrementAge = function(){
                                           var newAge = getAge() + 1;
@@ -347,7 +347,7 @@
         <pre>
             Employee.address = "";
             Employee.setAddress = function(newAddress) {
-                                      this.setAddress = newAddress;
+                                      this.address = newAddress;
             };
             Employee.getAddress = function() {
                                       return this.address;
