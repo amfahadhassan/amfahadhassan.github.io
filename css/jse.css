@@ -9,4 +9,5 @@ body{
 }
 h1{
     text-align: center;
+    list-style-type: square;
 }
