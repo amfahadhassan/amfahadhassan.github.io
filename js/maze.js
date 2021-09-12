@@ -26,7 +26,7 @@ $(function () {
   function end() {
     hoverStatus = "Game End!";
     $("#status").html(hoverStatus).css("color", "blue");
-    let currentStatus = success == true ? "You win! :]" : "Sorry, you lost! :[";
+    let currentStatus = success == true ? "You win! :]" : "You lose! :[";
     alert(currentStatus);
     $(this).off();
     $("#maze div.boundary").off();
