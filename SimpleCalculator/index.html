@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Simple Calculator</title>
+  </head>
+  <body>
+    <h1>Simple Calculator</h1>
+    <form action="http://localhost:8081/cModule.js">
+      <hr />
+      <label>First Value <input type="text" name="first" /></label>
+      <hr />
+      <label>Second Value <input type="text" name="second" /></label>
+      <hr />
+      <label
+        >Operation Type
+        <select id="operation" name="operation">
+          <option value="add">Add</option>
+          <option value="subtract">Subtract</option>
+          <option value="multiply">Multiply</option>
+          <option value="divide">Divide</option>
+        </select>
+      </label>
+      <hr />
+      <input id="button" type = "submit" value = "Submit">
+    </form>
+  </body>
+</html>
