@@ -1,0 +1,19 @@
+doctype html 
+html 
+    head
+        title Dictionary Project
+        link(rel='stylesheet', href='./css/dict.css')
+    body
+        h1#header WAP ONLINE DICTIONARY
+        form.form-signin(method="POST" action="/word")
+         label( for="inputKey" ) Term:
+         if(searchValue!= undefined)
+            input(type="text" name="searchKey" id="searchKey" class="form-control" placeholder=searchValue)
+         else
+            input(type="text" name="searchKey" id="searchKey" class="form-control" placeholder="Search Definition")
+         input(type="submit" value="Look Up" id="Submit")
+         form
+         ul#contents 
+            if(responses!=undefined)
+                each res in responses
+                    li=res.definition
